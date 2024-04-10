@@ -17,7 +17,7 @@ tags:
   - name: serviceforall
     description: In-memory book list cache API
 paths:
-  /service:
+  /service/myvalue:
     summary: List all books
     get:
       summary: service
@@ -28,6 +28,6 @@ paths:
         "200":
           description: Successful operation
           content:
-            application/json:
+            application/json:{}
 
 
