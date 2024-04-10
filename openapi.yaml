@@ -20,10 +20,10 @@ paths:
   /service:
     summary: List all books
     get:
-      summary: List all books
-      operationId: ListAllBooks
+      summary: service
+      operationId: serviceforall
       tags:
-        - books
+        - servicestoall
       responses:
         "200":
           description: Successful operation
